@@ -18,6 +18,44 @@ a:hover {
     cursor: pointer;
 }
 
+.hidden {
+    display: none;
+}
+
+.mg-lr {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #9b9b9b;
+}
+
+.text-light-gray {
+    color: #666;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+
+.text-thick {
+    font-weight: 100;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-title-size {
+    font-size: 22px;
+}
+
+.text-citation-size {
+    font-size: 20px;
+}
+
+.text-author-size {
+    font-size: 19px;
+}
+
 ul > li > a {
     text-decoration: underline;
 }
