@@ -58,6 +58,9 @@ a:hover {
 
 ul > li > a {
     text-decoration: underline;
+    padding: 10px;
+    font-size: 16px;
+    color: #1f1f1f!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -372,6 +375,10 @@ ul > li > a {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+}
+
+.navbar-nav a {
+    font-weight: 600;
 }
 
 .nav > li a:hover,
@@ -719,7 +726,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -752,7 +759,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -783,6 +790,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-row {
@@ -818,6 +827,14 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-white-light {
+    color: #d9d76a!important;
+}
+
+.text-shadow {
+    text-shadow: 0 0 6px black;
 }
 
 .btn-atomic-tangerine {
